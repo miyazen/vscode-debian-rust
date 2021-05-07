@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  debian-rust:
+    build: .
+    volumes:
+      - ../:/workspace
+    working_dir: /workspace
+    tty: true
